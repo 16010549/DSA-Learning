@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/splashscreen"
+    tools:context=".Login">
+
+
+    <TextView
+        android:id="@+id/NameOfApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="293dp"
+        android:fontFamily="@font/amethysta"
+        android:text="DSA"
+        android:textColor="#021161"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/NameOfApp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="18dp"
+        android:fontFamily="@font/amethysta"
+        android:text="LEARNING"
+        android:textColor="#021161"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <EditText
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="200dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/textbox_back"
+            android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+            android:padding="5dp"
+            android:hint="Username"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:textSize="22sp"/>
+
+
+        <EditText
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="300dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/textbox_back"
+            android:drawableLeft="@drawable/ic_outline_white_24"
+            android:padding="5dp"
+            android:hint="Password"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="400dp"
+            android:textSize="22sp"
+            android:layout_centerHorizontal="true"
+
+            android:text="LOGIN"
+            android:background="@drawable/loginbutton"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:padding="5dp"
+        android:layout_centerHorizontal="true"
+        android:text="REGISTER HERE."
+        android:textColor="#021161"
+        android:textSize="22dp"
+        android:textStyle="italic" />
+
+
+
+</RelativeLayout>
